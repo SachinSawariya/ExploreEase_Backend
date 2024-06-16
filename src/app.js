@@ -29,6 +29,10 @@ app.use('/api/v', trainRouter);
 app.use('/api/v', paymentRouter);
 app.use('/api/v', historyRouter);
 
+app.get('/', (req, res) => {
+    res.send('Welcome to ExploreEase Travel');
+})
+
 export {app};
 
 
