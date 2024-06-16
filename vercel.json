@@ -1,0 +1,10 @@
+{
+    "version": 2,
+    "name": "ExploreEase: Effortless Travel and Accommodation",
+    "builds": [
+       { "src": "app.js", "use": "@vercel/node" }
+    ],
+    "routes": [
+       { "src": "/(.*)", "dest": "/app.js" }
+    ]
+ }
